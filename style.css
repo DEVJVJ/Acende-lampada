@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100%;
+}
+
+.luz{
+    margin-top: 0px;
+    width: 100%;
+}
+
+.luz img{
+    height: 200px;
+    line-height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.buttons{
+    display: block;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.buttons button{
+    min-width: 54px;
+    height: 35px;
+    padding: 0 16px;
+    margin: 11px 4px;
+    border: 1px solid rgba(100, 100, 100, 0.5);
+    background: #f0f0f0;
+}
+
+.buttons button:hover{
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 10%);
+}
+
+.buttons button a{
+    text-decoration: none;
+    color: black;
+}
+
